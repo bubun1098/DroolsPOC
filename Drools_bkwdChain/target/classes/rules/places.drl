@@ -1,0 +1,42 @@
+package rules
+
+import test.sample.backwardChain.drools.models.Location;
+
+dialect  "mvel"
+
+
+query isContainedIn( String x, String y )
+  Location( x, y; )
+  or
+  ( Location( z, y; ) and isContainedIn( x, z; ) )
+end
+
+rule "check decision"
+when
+    isContainedIn("Raj", "India"; )
+then
+    System.out.println( "Decision taken--Raj Works out of India" );
+    System.out.println( "-----------------------------" );
+    System.out.println( "-----------------------------" );
+     System.out.println( "Now in rule 1" );
+    System.out.println( "-----------All Facts-----------------" );
+end
+
+rule "check decision false"
+when
+    not isContainedIn("Raj", "India"; )
+then
+    System.out.println( "Decision taken--Raj does not works out of India" );
+    System.out.println( "-----------------------------" );
+    System.out.println( "-----------------------------" );
+     System.out.println( "Now in rule 2" );
+    System.out.println( "-----------All Facts-----------------" );
+end
+
+rule "get all facts"
+when
+    isContainedIn(entity, location; )
+then
+    System.out.println( "Now in rule 3" );
+    System.out.println( "Entity " + entity + " is in " + location );
+end

@@ -1,0 +1,35 @@
+package rules
+
+import test.sample.DroolsPOC.models.Product
+
+rule "Offer for Diamond"
+	when
+		productObject: Product(type=="diamond" && (location=="Bangalore" && location!="Delhi"))
+	then
+		productObject.setDiscount(15);
+
+	end
+rule "Offer for Gold"
+	when
+		productObject: Product(type=="gold" && (location=="Bangalore" && location!="Delhi"))
+	then
+		productObject.setDiscount(25);
+	end
+rule "Offer for Silver"
+	when
+		productObject: Product(type=="silver" && (location=="Bangalore" && location!="Delhi"))
+	then
+		productObject.setDiscount(10);
+	end
+rule "Offer only location Bangalore"
+	when
+		productObject: Product(location=="Bangalore")
+	then
+		productObject.setUserMessage("Discounts Available in Bangalore");
+	end
+rule "Offer only location Delhi"
+	when
+		productObject: Product(location=="Delhi")
+	then
+		productObject.setUserMessage("Discounts not Available in Delhi");
+	end
