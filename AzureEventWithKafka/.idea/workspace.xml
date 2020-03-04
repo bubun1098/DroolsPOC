@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdff9c62-887d-4c5c-bf22-33532bfdd802" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YeyB8jc0K9AnMUMxU3qN0u0wW1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="producer.TestProducer" />
+      <module name="AzureEventWithKafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/lagom-java-sbt" value="PREVIEW" />
+        <entry key="C:/Westpack/cloudflow-poc" value="PREVIEW" />
+        <entry key="C:/sbtscala/Repo/cloudflow/examples/sensor-data-scala" value="PREVIEW" />
+        <entry key="C:/sbtscala/exercises-applied" value="PREVIEW" />
+        <entry key="C:/sbtscala/helloworld-sbt" value="PREVIEW" />
+        <entry key="C:/sbtscala/sensor-project" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdff9c62-887d-4c5c-bf22-33532bfdd802" name="Default Changelist" comment="" />
+      <created>1583317217145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583317217145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583317279335">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1583317279335" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1583317473139">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583317473139" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1583319932015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583319932015" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1583319932015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583319932015" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1583319932015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583319932015" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1583319932015">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583319932015" />
+    <state x="452" y="118" key="chooseDestDirectoryDialog" timestamp="1583317368336">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="118" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1583317368336" />
+    <state x="91" y="42" key="new project wizard" timestamp="1583317474664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="42" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583317474664" />
+  </component>
+</project>
